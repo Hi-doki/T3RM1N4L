@@ -13,7 +13,7 @@ const commands = {
 Available commands:
   <span class="command-echo">about</span>
   <span class="command-echo">projects</span>
-  <span class="command-echo">contact</span
+  <span class="command-echo">contact</span>
   <span class="command-echo">clear</span>
   <span class="command-echo">theme</span>
   <span class="command-echo">help</span>

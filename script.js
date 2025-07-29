@@ -11,46 +11,43 @@ let isLightTheme = false;
 const commands = {
     help: `
 Available commands:
-  <span class="command-echo">about</span>      - Who's John Doe?
-  <span class="command-echo">projects</span>   - View my work
-  <span class="command-echo">contact</span>    - How to reach me
-  <span class="command-echo">clear</span>      - Clear the terminal screen
-  <span class="command-echo">theme</span>      - Change the theme (e.g., 'theme light', 'theme dark')
-  <span class="command-echo">help</span>       - Show this help message
+  <span class="command-echo">about</span>
+  <span class="command-echo">projects</span>
+  <span class="command-echo">contact</span
+  <span class="command-echo">clear</span>
+  <span class="command-echo">theme</span>
+  <span class="command-echo">help</span>
     `,
     about: `
-Hello! I'm John Doe, a full-stack developer with a passion for building creative and functional web applications.
-With over 5 years of experience, I've had the chance to work with technologies like React, Node.js, Python, and SQL.
-I enjoy turning complex problems into simple, beautiful, and intuitive designs.
-When I'm not coding, you can find me hiking, exploring new technologies, or brewing the perfect cup of coffee.
+Hiii! I'm Michii, a full-stack developer that has created a plethora of different projects ranging from social media websites to low level software to modify your system.
+I have been coding for around 6 years by now (since 2019, but started my first actual project in 2020 in c#).
     `,
     projects: `
 Here are some of my projects:
 
 <ul class="projects">
     <li>
-        <p class="project-title">Project Alpha</p>
-        <p>A web-based platform for real-time data visualization. Built with D3.js and WebSockets.</p>
-        <a href="example.com" target="_blank">[Live Demo]</a> <a href="github.com" target="_blank">[GitHub]</a>
+        <p class="project-title">Echo</p>
+        <p>A Twitter-like social media site focused on customizablity and usability. (Currently not being updated)</p>
+        <a href="https://echo.nekos.ca" target="_blank">[Website]</a>
     </li>
     <li>
-        <p class="project-title">Project Beta</p>
-        <p>An e-commerce site for a local business, featuring a custom CMS. Built with Django and Stripe.</p>
-        <a href="example.com" target="_blank">[Live Demo]</a> <a href="github.Com" target="_blank">[GitHub]</a>
+        <p class="project-title">senkotheme</p>
+        <p>A theme for many programs based on the colors of Senko-San. Color Scheme created by me!</p>
+        <a href="https://www.reddit.com/r/desktops/comments/1m2fzb5/a_silly_theme_ive_been_working_on_recently/" target="_blank">[Original Reddit Thread]</a> <a href="https://github.com/Hi-doki/senkotheme" target="_blank">[GitHub]</a>
     </li>
     <li>
-        <p class="project-title">Project Gamma</p>
-        <p>A mobile-first progressive web app for task management. Built with Vue.js and Firebase.</p>
-        <a href="example.com" target="_blank">[Live Demo]</a> <a href="github.com" target="_blank">[GitHub]</a>
+        <p class="project-title">PiPiOS</p>
+        <p>A modular fake simulation of an "Operating System"/Kernel in python. (My first python project)</p>
+        <a href="https://github.com/Hi-doki/PiPiOS" target="_blank">[GitHub]</a>
     </li>
 </ul>
     `,
     contact: `
 You can reach me via email or find me on social media:
 
-Email:   <a href="mailto:john.doe@example.com">john.doe@example.com</a>
-GitHub:  <a href="https://github.com/johndoe" target="_blank">github.com/johndoe</a>
-LinkedIn:<a href="https://linkedin.com/in/johndoe" target="_blank">linkedin.com/in/johndoe</a>
+Email:   <a href="mailto:kora@nekos.ca">kora@nekos.ca</a>
+GitHub:  <a href="https://github.com/hi-doki" target="_blank">github.com/hidoki</a>
     `,
 };
 
